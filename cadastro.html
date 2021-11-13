@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    
+    <title>Cadastro do Time</title>
+</head>
+
+<body>
+    
+    <main>   
+        <form>
+            <fieldset>
+                <legend class="titulo-principal">Cadastro do Time</legend> <br>
+
+                <label for="jogador">Nome do Capitão</label>
+                <input type="text" id="jogador" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+                
+                <label for="nometime">Nome do Time</label>
+                <input type="text" id="nometime" required>
+
+                <label for="apelidotime">Apelido do Time</label>
+                <input type="text" id="apelidotime">
+
+            </fieldset> 
+            
+            <fieldset>
+                <legend>Qual categoria quer ser cadastrado?</legend>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Misto</option>
+                </select>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Qual nível quer ser cadastrado?</legend>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>Amador</option>
+                    <option>Semi-Profissional</option>
+                    <option>Profissional</option>   
+                </select>             
+            </fieldset>
+
+            <fieldset>
+                <legend>Por onde quer receber informações de campeonatos</legend>
+                <select>
+                    <option selected disabled value="">Selecione</option>
+                    <option>E-mail</option>
+                    <option>Whatsapp</option>
+                </select>
+            </fieldset>
+            
+            <input type="submit" value="Cadastrar Time" class="enviar">
+            
+        </form>
+    </main>
+</body>
+</html>

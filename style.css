@@ -1,0 +1,59 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fundo{
+    text-align: center;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, select, legend{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input{
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 5px;
+    
+}
+
+fieldset{
+    display: block;
+    margin: 10px 0;
+}
+
+.enviar{
+    width:40%;
+    padding: 15px 0;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: darkblue;
+    transform: scale(1.2);
+}
