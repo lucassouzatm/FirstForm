@@ -24,6 +24,15 @@ form label, legend{
     margin: 0 0 10px;
 }
 
+form select{
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+option{
+    text-align: center;
+}
+
 form input{
     margin:0 0 20px;
     padding: 10px 25px;
